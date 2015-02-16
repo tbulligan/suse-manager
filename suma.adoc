@@ -1,32 +1,23 @@
-// Add SUSE Logo
-
-
-Installation Quick Start
-========================
+SUSE Manager Installation Quick Start
+=====================================
 Tomaso Bulligan <TBulligan@suse.com>
-v1.0, 2015-02-10
-:toc: macro
+v0.1, 2015-02-16
+:toc:
 :toc-title: Contents
 :toclevels: 2
 :imagesdir: suma-pics
 
-'''
-
-[big red]#SUSE Manager 2.1#
-
-Lists the system requirements and guides you step-by-step through the
-installation of SUSE Manager 2.1, from DVD or from an ISO image.
-
-Publication date: February 10, 2015
-
-toc::[]
-
-<<<
+Publication date: February 16, 2015
 
 == Welcome to SUSE Manager
 
+This document lists the system requirements and guides you step by step through
+the installation of SUSE Manager 2.1.
+
 For more detailed installation instructions and deployment strategies, see the
 SUSE Manager Documentation at http://www.suse.com/documentation/
+
+Publication date: 
 
 === Server Requirements
 
@@ -68,6 +59,7 @@ installation process, create a backup of your hard disks.
 the installation program. Select _Install/Restore SUSE-Manager-Server_, then
 press _Enter_.
 
+[align = center]
 image::01-Boot.PNG[]
 
 [start = 2]
@@ -77,6 +69,7 @@ start.
 
 . Choose your desired _Language_ and _Keyboard Layout_. Proceed with _Next_.
 
+[align = center]
 image::02-Lang-Keys.PNG[]
 
 [TIP]
@@ -89,11 +82,13 @@ and _Enter_ to select.
 Agree to the License Agreement_ for the installation to continue. Proceed with
 _Next_.
 
+[align = center]
 image::03-EULA.PNG[]
 
 [start = 5]
 . Set the root password and confirm it. Proceed with _Next_.
 
+[align = center]
 image::04-Password.PNG[]
 
 [start = 6]
@@ -101,16 +96,19 @@ image::04-Password.PNG[]
 Interfaces and Proxy by selecting _Change..._. When ready select _Use Following
 Configuration_, then choose _Next_.
 
+[align = center]
 image::05-Network.PNG[]
 
 [start = 7]
 .  Configure the _Clock and Time Zone_. Proceed with _Next_.
 
+[align = center]
 image::06-Clock.PNG[]
 
 [start = 8]
 . Configure the NTP settings. Proceed with _OK_.
 
+[align = center]
 image::07-NTP.PNG[]
 
 [start = 9]
