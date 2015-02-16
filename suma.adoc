@@ -6,6 +6,7 @@ v0.1, 2015-02-16
 :toc-title: Contents
 :toclevels: 2
 :imagesdir: suma-pics
+:linkcss:
 
 Publication date: February 16, 2015
 
@@ -16,8 +17,6 @@ the installation of SUSE Manager 2.1.
 
 For more detailed installation instructions and deployment strategies, see the
 SUSE Manager Documentation at http://www.suse.com/documentation/
-
-Publication date: 
 
 === Server Requirements
 
@@ -67,6 +66,9 @@ image::01-Boot.PNG[]
 _Yes_ to proceed. Wait for the deployment process to finish. YaST firstboot will
 start.
 
+<<<
+
+[start = 3]
 . Choose your desired _Language_ and _Keyboard Layout_. Proceed with _Next_.
 
 [align = center]
@@ -85,6 +87,8 @@ _Next_.
 [align = center]
 image::03-EULA.PNG[]
 
+<<<
+
 [start = 5]
 . Set the root password and confirm it. Proceed with _Next_.
 
@@ -98,6 +102,8 @@ Configuration_, then choose _Next_.
 
 [align = center]
 image::05-Network.PNG[]
+
+<<<
 
 [start = 7]
 .  Configure the _Clock and Time Zone_. Proceed with _Next_.
@@ -114,6 +120,9 @@ image::07-NTP.PNG[]
 [start = 9]
 . Register your system with Novell Customer Center. Proceed with _Next_.
 
+[align = center]
+image::08-NCC.PNG[]
+
 .NCC Registration and Updates
 IMPORTANT: Registering your system to NCC is mandatory for receiving updates.
 You might want to skip registration in case of a disconnected setup. In that
@@ -125,7 +134,7 @@ interface later with `yast inst_suse_register`.
 
 To register your system:
 
-[style = loweralpha]
+[loweralpha]
 . Select _Configure Now (Recommended)_ and proceed with _Next_.
 . Fill in the registration form.
 . Send the form with _Submit_.
